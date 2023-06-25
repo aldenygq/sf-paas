@@ -1,0 +1,9 @@
+{
+	"object_types":[{
+			"en_name":"back",
+			"cn_name":"后台应用"
+		},{
+     		"en_name":"front",
+        	"cn_name":"前台应用"
+	}]
+}

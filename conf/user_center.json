@@ -1,0 +1,19 @@
+{
+	"menus":[{
+        "key":"个人中心",
+		"external_jump":"N",
+        "value":"http://xxxxxxxxxxxxxxx"
+    },{
+        "key":"权限系统",
+		"external_jump":"Y",
+        "value":"http://xxxxxxxxxxxx"
+    },{
+        "key":"应用中心",
+		"external_jump":"Y",
+        "value":"https://xxxxxxxxxxxxxxxx"
+    },{
+        "key":"退出登录",
+		"external_jump":"N",
+        "value":"http://xxxxxxxxxxxxxxxxx"
+    }]
+}

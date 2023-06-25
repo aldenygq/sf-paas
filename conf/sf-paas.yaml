@@ -1,0 +1,49 @@
+mysql:
+  host: 10.188.36.16
+  user: op_test
+  dbname: sf-paas 
+  pwd: op_test@123
+  port: 3320
+  maxIdleConns: 20
+  maxOpenConns: 50
+  maxConnLifeTime: 550
+  type: mysql
+  dbcharset: utf8
+
+log:
+  loglevel: info
+  logmaxage: 7
+  logfile: ./sf-paas.log
+
+server:
+  port: 8041
+  mode: release
+
+util:
+  uuapurl: http://uuap2-api.sftcwl.com
+  uuaptoken: SL09SNYs8BTjJjrg3ZNTarWb7Q5aevrB
+  ferryurl: http://10.189.241.97:8002
+  permdomain: http://permission.sftcwl.com
+  permurl: http://permission.sftcwl.com
+  svcurl: http://10.189.64.39:7092
+redis:
+  ip: opdev.sftcwl.com
+  port: 6379
+base:
+  opgroups:
+  - '01380797'
+  - '01372296'
+  objmanager:
+  - '01380797'
+  - '01372296'
+  typepath: ./conf/create_info.json
+  supportpath: ./conf/support_menu.json
+  ucenterpath: ./conf/user_center.json
+  fbtypes:
+  - '员工点评'
+  - '产品点评'
+  - '问题反馈'
+  - '建议与意见'
+oncall:
+  info: "Tips: 1、工单|权限|日常问题，请优先联系值班同学！\n 2、紧急问题（影响线上服务运行），请直接联系接口运维同学处理。 \n 3、高优先级工单及涉及费用相关工单需要经理审批，非必须勿提。"
+

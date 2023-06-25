@@ -1,0 +1,2 @@
+2022-03-01 19:16:12[36m [INFO] [10.189.240.137] [124.925203ms] [GET] [/sf-paas/v1/user/center] [200] [0m (/home/work/opdir/guoqiang/project/src/sf-paas/middleware/log.go:125 sf-paas/middleware.Log.func1)
+2022-03-01 19:21:54[36m [INFO] [10.189.240.137] [55.796247ms] [GET] [/sf-paas/v1/user/center] [200] [0m (/home/work/opdir/guoqiang/project/src/sf-paas/middleware/log.go:125 sf-paas/middleware.Log.func1)

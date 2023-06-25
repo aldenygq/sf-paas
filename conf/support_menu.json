@@ -1,0 +1,23 @@
+{
+	"menus":[{
+        "key":"待办工单(10)",
+		"external_jump":"N",
+        "value":"http://xxxxxxxxxxxxxxx"
+    },{
+        "key":"Sdk中心",
+		"external_jump":"Y",
+        "value":"http://xxxxxxxxxxxx"
+    },{
+        "key":"Api文档中心",
+		"external_jump":"Y",
+        "value":"https://xxxxxxxxxxxxxxxx"
+    },{
+        "key":"反馈中心",
+		"external_jump":"N",
+        "value":"http://xxxxxxxxxxxxxxxxx"
+    },{
+        "key":"值班管理",
+        "external_jump":"N",
+        "value":"http://xxxxxxxxxxxxxxxxx"
+    }]
+}
